@@ -1,0 +1,204 @@
+*{
+    font-family: 'Playfair Display', serif;
+}
+.page{
+    background-image: url("waves.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#navbar{
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+}
+#brand{
+    color: white;
+}
+#nav-link{
+    color: white;
+    font-size: 20px;
+}
+#nav-link:hover{
+    color: rgb(255, 0, 0);
+}
+#story-header{
+    margin-top: 2rem;
+}
+.object{
+    border-radius: 10px;
+    display: block;
+    margin-top: 4%;
+    margin-bottom: 5%;
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    box-shadow: 10px 15px 0 0 rgb(56, 56, 56);
+    animation: slide-in 1.5s;
+    color: white;
+}
+#blur-cont{
+    background-color: rgba(0, 0, 0, 0.4);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(4px);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#blur-cont p{
+    font-size: 20px;
+    font-weight: 800;
+    color: white;
+}
+.more-text{
+    background-color: black;
+    height: 500px;
+}
+.index-card{
+    background-color: white;
+    justify-content: space-evenly;
+    width: 33.3%;
+    text-align: center;
+    align-items: center;
+    height: 22rem;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+.card-link{
+    color: rgba(255, 255, 255, 0);
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-size: 18px;
+    text-decoration: none;
+}
+.card-link:hover{
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(8px);
+    color: white;
+    border-radius: 10px;
+}
+.card-link{
+    text-decoration: none;
+}
+.three-boxes{
+    padding: 25px;
+}
+.more-text h1{
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+#river{
+    background-image: url("river.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+#trees{
+    background-image: url("trees.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+#grass{
+    background-image: url("grass.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+#after-gallery{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: block;
+}
+#after-gallery h1{
+    color: white;
+    text-align: center;
+}
+#appt-form{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+#email-label{
+    color: white;
+}
+#email{
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 15px;
+    font-size: 20px;
+}
+#phone-label{
+    color: white;
+}
+#phone{
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 15px;
+    font-size: 20px;
+}
+#date-label{
+    color: white;
+}
+#date{
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 15px;
+    font-size: 20px;
+}
+#select-label{
+    color: white;
+}
+#form-submit{
+    width: 100%;
+}
+#form-select{
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 15px;
+    font-size: 20px;
+}
+.note{
+    background-color: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(10px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+}
+.note p{
+    color: white;
+    font-size: 18px;
+}
+#park-chair{
+    height: 100px;
+    width: 100px;
+    display: block;
+}
+@keyframes slide-in{
+    from{
+        transform: translateX(-200%);
+    }
+    to{
+        transform: translateX(0%);
+    }
+}
